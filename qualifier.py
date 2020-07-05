@@ -28,4 +28,8 @@ class Article:
     """The `Article` class you need to write for the qualifier."""
 
     def __init__(self, title: str, author: str, publication_date: datetime.datetime, content: str):
-        pass
+        self.title = str
+        self.author = str 
+        self.content = str
+        self.publication_date = datetime.datetime.isoformat() 
+  
